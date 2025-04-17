@@ -16,7 +16,7 @@ app.use(express.static('public'));
 // definizione della rotta base
 
 app.get('/', (req, res) => {
-    res.send('Benvenuti');
+    res.send('Server del mio blog');
 })
 
 app.get('/menudeidolci', (req, res) => {
