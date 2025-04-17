@@ -47,8 +47,9 @@ app.get('/menudeidolci', (req, res) => {
             image: "<img src=./imgs/torta_paesana.jpeg>",
             tags: ["tag1", "tag2", "tag3"]
         },
-        
     ]
+
+    res.json(menuDeiDolci)
 })
 
 // inserimento del metodo che lascia in ascolto il server
